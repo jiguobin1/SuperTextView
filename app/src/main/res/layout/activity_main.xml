@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/superTextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sCenterBottomTextColor="@color/colorAccent"
+        stv:sCenterBottomTextString="限额说明>>"
+        stv:sCenterTopTextString=" "
+        stv:sCenterViewGravity="left_center"
+        stv:sLeftBottomTextString="招商银行（8888）"
+        stv:sLeftIconRes="@mipmap/ic_launcher"
+        stv:sRightIconRes="@mipmap/ic_launcher"
+        stv:sLeftTopTextString="银行卡支付"
+        stv:sLeftViewGravity="left_center"
+        stv:sRightViewType="checkbox"
+        stv:sDividerLineType="bottom"
+        stv:sUseRipple="true"/>
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        stv:sLeftTextString="左文字符串"
+        stv:sLeftTopTextString="左上文字字符串"
+        stv:sCenterTextString="	中间文字字符串"
+        stv:sCenterTopTextString="中上文字字符串"
+        stv:sCenterBottomTextString="中下文字字符串"
+        stv:sRightTextString="右边文字字符串"
+        stv:sRightTopTextString="右上文字字符串"
+        stv:sRightBottomTextString="右下文字字符串"
+        stv:sLeftBottomTextString="	左下文字字符串"
+        stv:sLeftTextColor="#908"
+        stv:sLeftTopLines="3"
+        stv:sLeftViewGravity="right_center"
+        stv:sLeftTvDrawableLeft="@mipmap/ic_launcher"
+        stv:sTextViewDrawablePadding="20dp"
+        stv:sLeftViewWidth="50dp"
+        stv:sTopDividerLineMarginLR="50dp"
+        stv:sDividerLineColor="#908"
+        stv:sDividerLineHeight="10dp"
+        stv:sDividerLineType="top"
+        stv:sLeftViewMarginLeft="5dp"
+        stv:sLeftTextIsBold="true"
+        stv:sLeftTopTextIsBold="true"
+        stv:sCenterSpaceHeight="20dp"
+        stv:sBackgroundDrawableRes="@mipmap/ic_launcher"
+        stv:sRightViewType="switchBtn"
+        stv:sUseShape="true"
+        stv:sShapeSolidColor="true"
+        stv:sShapeCornersRadius="5dp"
+        />
+
+
+</LinearLayout>
